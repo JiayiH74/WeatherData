@@ -3,7 +3,7 @@ public class WeatherData
 {
     private ArrayList<Double> temperatures;
 
-    public WeatherData(ArrayList<Double> temps) //constructor
+    public WeatherData(ArrayList<Double> temps) 
     {
         temperatures = temps;
     }
@@ -13,7 +13,7 @@ public class WeatherData
         return temperatures.toString();
     }
 
-    public void cleanData(double lower, double upper) //doesnt return, method
+    public void cleanData(double lower, double upper) 
     {
         for(int i = 0; i < temperatures.size(); i++)
         {
